@@ -112,6 +112,27 @@
                     clickable: true,
                 },
             });
+
+            // Memory Swiper
+            const memoryThumbs = new Swiper(".memoryThumbs", {
+                loop: true,
+                spaceBetween: 10,
+                slidesPerView: 5,
+                freeMode: true,
+                watchSlidesProgress: true,
+            });
+
+            const memoryMain = new Swiper(".memoryMain", {
+                loop: true,
+                spaceBetween: 10,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                thumbs: {
+                swiper: memoryThumbs,
+                },
+            });
         </script>
 
   

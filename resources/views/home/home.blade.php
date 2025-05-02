@@ -17,6 +17,8 @@
     
     @include('partials.partners')
 
+    @include('partials.memories')
+
     @include('partials.faq')
 
 
