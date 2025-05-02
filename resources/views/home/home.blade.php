@@ -12,6 +12,8 @@
     @include('partials.awards')
     
     @include('partials.process')
+
+    @include('partials.contact')
     
     @include('partials.partners')
 

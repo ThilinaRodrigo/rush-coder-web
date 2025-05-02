@@ -3,7 +3,7 @@
   <h2 class="text-4xl font-bold mb-4">Sponsors</h2>
   <p class="text-gray-300 mb-10">Meet our esteemed sponsors who make this event possible</p>
 
-  <div class="swiper mySwiper max-w-6xl mx-auto px-4">
+  <div class="swiper sponsor-swiper max-w-6xl mx-auto px-4">
     
     <div class="swiper-wrapper">
 

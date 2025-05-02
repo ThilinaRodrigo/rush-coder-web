@@ -67,38 +67,53 @@
         </script>
 
         <script>
-
-            const swiper = new Swiper(".mySwiper", {
+            // Team Swiper
+            const teamSwiper = new Swiper('.team-swiper', {
                 loop: true,
-                grabCursor: true,
                 spaceBetween: 30,
+                grabCursor: true,
                 slidesPerView: 1,
-                pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-                },
-                navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-                },
                 autoplay: {
-                delay: 3000, 
-                disableOnInteraction: false, 
+                    delay: 3000, // 3 seconds
+                    disableOnInteraction: false,
                 },
                 breakpoints: {
-                640: {
-                    slidesPerView: 1.2,
+                    640: { slidesPerView: 1 },
+                    768: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                    1280: { slidesPerView: 4 },
                 },
-                768: {
-                    slidesPerView: 2,
-                },
-                1024: {
-                    slidesPerView: 3,
-                },
+                navigation: {
+                    nextEl: '.team-swiper-next',
+                    prevEl: '.team-swiper-prev',
                 },
             });
 
+            // Sponsor Swiper
+            const sponsorSwiper = new Swiper('.sponsor-swiper', {
+                loop: true,
+                spaceBetween: 20,
+                slidesPerView: 1,
+                autoplay: {
+                    delay: 2500, 
+                    disableOnInteraction: false,
+                },
+                breakpoints: {
+                    640: { slidesPerView: 2 },
+                    1024: { slidesPerView: 3 },
+                },
+                navigation: {
+                    nextEl: '.sponsor-swiper-next',
+                    prevEl: '.sponsor-swiper-prev',
+                },
+                pagination: {
+                    el: '.sponsor-swiper-pagination',
+                    clickable: true,
+                },
+            });
         </script>
+
+  
   
   
 
