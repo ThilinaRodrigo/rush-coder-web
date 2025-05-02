@@ -7,6 +7,10 @@
         
          <!-- AOS CSS -->
          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+         <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
         <!-- Your custom CSS -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/slider.css') }}">
@@ -17,6 +21,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
         
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     </head>
 
@@ -59,6 +65,42 @@
         <script>
             AOS.init();
         </script>
+
+        <script>
+
+            const swiper = new Swiper(".mySwiper", {
+                loop: true,
+                grabCursor: true,
+                spaceBetween: 30,
+                slidesPerView: 1,
+                pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                },
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                delay: 3000, 
+                disableOnInteraction: false, 
+                },
+                breakpoints: {
+                640: {
+                    slidesPerView: 1.2,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+                },
+            });
+
+        </script>
+  
+  
 
     </body>
 </html>

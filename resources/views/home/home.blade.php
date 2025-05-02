@@ -13,6 +13,7 @@
     
     @include('partials.process')
     
+    @include('partials.partners')
 
 
 @endsection
