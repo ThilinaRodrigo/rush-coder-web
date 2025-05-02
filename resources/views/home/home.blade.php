@@ -7,10 +7,11 @@
     
   {{--   @include('partials.about') --}}
 
-   {{--  @include('partials.timeline') --}}
+    @include('partials.timeline')
 
     @include('partials.awards')
     
+    @include('partials.process')
     
 
 
