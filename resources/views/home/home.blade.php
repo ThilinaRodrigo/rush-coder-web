@@ -5,7 +5,9 @@
 
     @include('partials.herosection')
     
-     @include('partials.timeline')
+    @include('partials.about')
+
+   {{--  @include('partials.timeline') --}}
 
 
 @endsection
