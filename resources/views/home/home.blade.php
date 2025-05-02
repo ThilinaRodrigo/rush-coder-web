@@ -17,5 +17,7 @@
     
     @include('partials.partners')
 
+    @include('partials.faq')
+
 
 @endsection

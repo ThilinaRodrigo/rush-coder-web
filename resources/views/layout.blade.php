@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/slider.css') }}">
         <link rel="stylesheet" href="{{ asset('css/timeline.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/faqsection.css') }}">
         
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
