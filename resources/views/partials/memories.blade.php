@@ -1,4 +1,4 @@
-<section class="bg-transparent py-16 px-4 text-white">
+<section class="bg-transparent py-16 px-4 text-white scroll-mt-16" id="memories">
   <div class="max-w-4xl mx-auto"> 
     <h2 class="text-4xl font-bold text-center text-white mb-10">Memories</h2>
 

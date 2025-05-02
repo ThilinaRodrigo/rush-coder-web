@@ -1,4 +1,4 @@
-<section class="timeline-section" id="timeline">
+<section class="timeline-section scroll-mt-16" id="timeline">
   <div class="container py-12">
       <h2 class="text-center font-bold mb-12 text-4xl text-white">TIMELINE</h2>
       

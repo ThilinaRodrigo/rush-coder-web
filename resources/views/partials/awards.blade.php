@@ -1,4 +1,4 @@
-<section class="bg-transparent py-16 text-center text-white">
+<section class="bg-transparent py-16 text-center text-white scroll-mt-16 pb-24" id="awards">
   <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl md:text-4xl font-bold mb-4">Awards</h2>
     <p class="text-gray-400 mb-10 text-sm md:text-base">

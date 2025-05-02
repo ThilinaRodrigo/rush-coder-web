@@ -24,6 +24,10 @@
         
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        {{-- for the scrollspy functionality --}}
+        <div x-data="scrollSpy()" x-init="init()" @scroll.window="onScroll">
+            
     
     </head>
 
@@ -34,6 +38,18 @@
         <div class="container">
             @yield('content')
         </div>
+
+        <!-- start Back to Top Button -->
+
+        <button id="backToTopBtn" onclick="scrollToTop()"
+        class="fixed bottom-6 right-6 z-50 bg-white/10 backdrop-blur-md text-white p-3 rounded-full shadow-md hover:bg-white/20 transition duration-300 hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-orange-400" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+        </svg>
+        </button>
+
+       <!-- end Back to Top Button -->
 
         @include('partials.footer') 
 
@@ -75,7 +91,7 @@
                 grabCursor: true,
                 slidesPerView: 1,
                 autoplay: {
-                    delay: 3000, // 3 seconds
+                    delay: 3000, 
                     disableOnInteraction: false,
                 },
                 breakpoints: {
@@ -135,7 +151,18 @@
             });
         </script>
 
-  
+       {{--  Back to Top Button Js --}}
+        <script>
+            const backToTopBtn = document.getElementById("backToTopBtn");
+        
+            window.addEventListener("scroll", () => {
+            backToTopBtn.style.display = window.scrollY > 200 ? "block" : "none";
+            });
+        
+            function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        </script>
   
   
 

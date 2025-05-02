@@ -1,8 +1,8 @@
 <!-- HTML -->
-<section id="faq" class="faq-section">
+<section id="faq" class="faq-section scroll-mt-16 mb-32">
   <h2 class="faq-title">FAQs</h2>
 
-  <details class="faq-accordion" open>
+  <details class="faq-accordion">
     <summary>Who can participate in this competition?</summary>
     <p>rushcoder 3.0 welcomes the participation of undergraduate students from state Universities or Higher Educational Institutes. Each participating team must appoint a team leader, and the team can have a maximum of 5 members representing the same university, as outlined in the registration guidelines.</p>
   </details>
