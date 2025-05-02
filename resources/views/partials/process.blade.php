@@ -1,4 +1,4 @@
-<section class="bg-[#0b0b0f] py-16 text-white">
+<section class="bg-transparent py-16 text-white scroll-mt-16" id="process">
   <div class="max-w-5xl mx-auto px-4 text-center">
     <h2 class="text-3xl md:text-4xl font-bold mb-10 text-white">COMPETITION DETAILS</h2>
 

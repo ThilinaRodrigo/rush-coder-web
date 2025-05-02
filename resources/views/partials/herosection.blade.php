@@ -1,5 +1,5 @@
 
-<section class="hero-section">
+<section class="hero-section" id="home">
  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 md">
       <div class="flex-1 p-4 flex items-center justify-center hidden sm:flex">
           <div class="text-white text-center">

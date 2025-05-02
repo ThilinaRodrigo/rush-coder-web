@@ -4,6 +4,9 @@
 body, html {
   overflow-x: hidden;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .navbar {
   position: fixed;
