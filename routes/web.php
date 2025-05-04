@@ -15,3 +15,8 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+
+//this route is only for testing purpose
+Route::get('/login', [HomeController::class, 'login'])->name('login'); // Route for login page  
+Route::get('/signup', [HomeController::class, 'signup'])->name('signup'); // Route for signup page
+Route::get('/forgot-password', [HomeController::class, 'forgot_password'])->name('forgot-password'); // Route for forgot password page
