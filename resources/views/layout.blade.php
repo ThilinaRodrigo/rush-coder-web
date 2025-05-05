@@ -35,7 +35,7 @@
 
         @include('partials.navbar')
 
-        <div class="container">
+        <div class="max-w-7xl mx-auto">
             @yield('content')
         </div>
 
